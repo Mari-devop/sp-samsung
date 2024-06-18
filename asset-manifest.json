@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sp-samsung/static/css/main.bb733e17.css",
+    "main.js": "/sp-samsung/static/js/main.31f2d261.js",
+    "static/js/453.1f8b9855.chunk.js": "/sp-samsung/static/js/453.1f8b9855.chunk.js",
+    "static/media/main.png": "/sp-samsung/static/media/main.de275f9fe8df5f615053.png",
+    "static/media/frame6.png": "/sp-samsung/static/media/frame6.32d2b05df9dc618a9924.png",
+    "static/media/frame5.png": "/sp-samsung/static/media/frame5.5d1c4e0e3025ce60132a.png",
+    "static/media/frame3.png": "/sp-samsung/static/media/frame3.50c0888ef302216262d8.png",
+    "static/media/frame1,2.png": "/sp-samsung/static/media/frame1,2.29dd7a102cff90d17e25.png",
+    "static/media/frame4.png": "/sp-samsung/static/media/frame4.165ecf0f17b1004df442.png",
+    "static/media/Kitchn Logo.png": "/sp-samsung/static/media/Kitchn Logo.08f1406e03e8c377a21d.png",
+    "static/media/Samsung Logo.png": "/sp-samsung/static/media/Samsung Logo.1ec80d7c3a6eb4aaa6d6.png",
+    "static/media/samsungsharpsans-bold.woff": "/sp-samsung/static/media/samsungsharpsans-bold.a3d2fc0b2ed47686941b.woff",
+    "static/media/samsungsharpsans-medium.woff": "/sp-samsung/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
+    "static/media/samsungsharpsans.woff": "/sp-samsung/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
+    "index.html": "/sp-samsung/index.html",
+    "main.bb733e17.css.map": "/sp-samsung/static/css/main.bb733e17.css.map",
+    "main.31f2d261.js.map": "/sp-samsung/static/js/main.31f2d261.js.map",
+    "453.1f8b9855.chunk.js.map": "/sp-samsung/static/js/453.1f8b9855.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb733e17.css",
+    "static/js/main.31f2d261.js"
+  ]
+}
