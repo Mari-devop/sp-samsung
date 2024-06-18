@@ -1,11 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './pages/Main';
+import Blank from './pages/Blank';
 
 function App() {
   return (
+    <Router basename="/sp-samsung">
       <div className="App">
-        <Main />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/blank" element={<Blank />} />
+        </Routes>
       </div>
+    </Router>
   );
 }
 

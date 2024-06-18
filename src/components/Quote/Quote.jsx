@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/css/components/text.css';
 
 const Quote = ({ text, link }) => {
@@ -6,10 +7,11 @@ const Quote = ({ text, link }) => {
     <div className='sp-quote'>
       <p className='sp-quote__text'>
         {text}
-        <p className='sp-quote__text-link'>{link}</p>
+        <Link to="/blank" className='sp-quote__text-link'>{link}</Link>
       </p>
     </div>
   );
 };
 
 export default Quote;
+
