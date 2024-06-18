@@ -1,0 +1,67 @@
+.sp-frame {
+  position: relative;
+  height: 90vh;
+  width: 90vw;
+  border: 2px solid #000;
+  overflow: hidden;
+  background-color: #fff;
+}
+.sp-frame__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition:  2s ease-out;
+  z-index: 1; 
+}
+.sp-frame__text {
+  position: relative;
+  z-index: 2; 
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sp-frame.animate .sp-frame__image img {
+  transform: translateX(100%);
+  width: 55%; 
+}
+.sp-frame__quote-section {
+  position: relative;
+  bottom: 35%;
+  left: 8%;
+  transform: translateY(-50%);
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: 2;
+  width: 100%;
+  height: 70%;
+  max-width: fit-content;
+}
+.sp-frame__quote-section.show {
+  opacity: 1;
+}
+
+@media (max-width: 880px) {
+  .sp-frame.animate .sp-frame__image img  {
+    transform: none;
+    width: 100%;
+    opacity: 0.4;
+  }
+  .sp-frame__quote-section {
+    bottom: 55%;
+    transform: none;
+    width: 90%;
+  }
+}
+
+@media (max-width: 533px) {
+  .sp-frame__quote-section {
+    bottom: 55%;
+    transform: none;
+    width: 80%;
+  }
+}

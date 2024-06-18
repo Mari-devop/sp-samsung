@@ -1,0 +1,273 @@
+/* //////////////////////////////////////
+// TextTop
+////////////////////////////////////// */
+
+@keyframes moveFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+.sp-text {
+  display: block;
+  flex-direction: column;
+  margin-left: 5.5vw;
+  width: 100%;
+  max-width: fit-content;
+  position: absolute;
+  top: 20%;
+}
+.sp-text__line {
+  font-family: 'Samsung Sharp Sans Bold';
+  align-items: center;
+  display: flex;
+  opacity: 0; 
+  animation: moveFromLeft 1s ease-out forwards;
+}
+.sp-text__line:nth-child(1) {
+  animation-delay: 1s;
+}
+.sp-text__line:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.sp-text__line:nth-child(3) {
+  animation-delay: 2s;
+}
+.sp-text__line,
+.sp-pagination p {
+  font-size: 2vw; 
+  line-height: 0.2;
+}
+.sp-text__line-text-small {
+  font-size: 1vw;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.sp-text__kitchn-logo {
+  width: 8vw;
+  object-fit: contain;
+  padding-right: 1vw;
+}
+
+
+/* //////////////////////////////////////
+// TextBottom
+////////////////////////////////////// */
+
+.sp-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  max-width: fit-content;
+  margin-left: 50px;
+  position: relative;
+  bottom: 10%;
+}
+.sp-text-bottom__text {
+  font-family: 'Samsung Sharp Sans Medium';
+  font-size: 2.5vw;
+  line-height: 0.4;
+  margin-top: 20px;
+  color: #fff;
+  animation: moveFromLeft 1s ease-out forwards;
+  animation-delay: 0.3s;
+  opacity: 1;
+}
+.sp-text-bottom__text-small {
+  font-size: 1.5vw;
+  line-height: 0.4;
+  color: #fff;
+  margin-top: 30px;
+}
+.sp-frame__text-small {
+  font-size: 1vw;
+}
+
+/* //////////////////////////////////////
+// Logo Text Container
+////////////////////////////////////// */
+  
+.logo-text-container {
+  display: flex;
+  align-items: center;
+}
+.logo-text-container--light {
+  color: #fff;
+}
+.logo-text-container__title {
+  margin: 0;
+  font-family: 'Samsung Sharp Sans Medium';
+  letter-spacing: 1px;
+}
+.logo-text-container__title--normal {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 2vw;
+}
+.logo-text-container__title--big {
+  font-family: 'Samsung Sharp Sans Regular';
+  font-size: 70px;
+  animation: moveFromLeft 1s ease-out forwards;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo-text-container__small-title {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.logo-text-container__small-title--normal {
+  font-size: 1vw;
+}
+.logo-text-container__small-title--big {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 20px;
+  margin-bottom: 35px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo-text-container__title span {
+  font-family: 'Samsung Sharp Sans Bold';
+}
+
+
+/* //////////////////////////////////////
+// Quote Text Container
+////////////////////////////////////// */
+ 
+.sp-quote {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  max-width: 40%;
+  z-index: 4;
+}
+.sp-quote__text {
+  font-size: 1vw; 
+  line-height: 1.2;
+  text-wrap: wrap;
+}
+.sp-quote__text-link {
+  color: #4e4e4e;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.sp-quote__text-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1010px) {
+  .logo-text-container__title--normal,
+  .logo-text-container__small-title--normal  {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+  }
+  .sp-text {
+    top: 30%
+  }
+  .sp-quote  {
+    max-width: 45%;
+    top: 20%;
+  }
+  .sp-text__line,
+  .sp-pagination p {
+    font-size: 1.9vw;
+  }
+  .sp-quote__text {
+    font-size: 1.2vw;
+  }
+  .sp-frame__text-small {
+    font-size: 1vw;
+  }
+}
+@media (max-width: 880px) {
+  .sp-text {
+    top: 24%;
+  }
+  .sp-text__line,
+  .sp-pagination p {
+    font-size: 3vw;
+  }
+  .sp-quote {
+    top: 5%;
+    max-width: 100%;
+  }
+  .sp-quote__text {
+    font-size: 1.7vw;
+  }
+  .sp-text-bottom__text {
+    font-size: 4.5vw;
+  }
+  .sp-frame__text-small {
+    font-size: 1vw;
+    margin-top: 20px;
+  }
+  .sp-text__kitchn-logo {
+    width: 12vw;
+  }
+}
+@media (max-width: 533px) {
+  .sp-text__line {
+    font-size: 4vw;
+  }
+  .sp-frame__text-small {
+    font-size: 2vw;
+  }
+  .sp-quote {
+    top: 0;
+    max-width: 100%;
+  }
+  .sp-quote__text {
+    font-size: 2.5vw;
+  }
+  .sp-text__kitchn-logo {
+    width: 18vw;
+  }
+  .sp-text-bottom__text {
+    font-size: 5vw;
+  }
+  .logo-text-container__title--big {
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sp-quote__text,
+  .sp-pagination p {
+    font-size: 1vw;
+  }
+  .sp-frame__text-small {
+    font-size: 0.7vw;
+  }
+  .sp-text__line {
+    font-size: 1.5vw;
+  }
+  .sp-text__kitchn-logo  {
+    width: 7vw
+  }
+}
+@media (min-width: 2000px) {
+  .sp-text {
+    top: 25%;
+    left: 2%;
+  }
+  .sp-quote__text,
+  .sp-pagination p {
+    font-size: 0.7vw;
+  }
+  .sp-frame__text-small {
+    font-size: 0.5vw;
+  }
+  .sp-text__line {
+    font-size: 0.9vw;
+  }
+  .sp-text__kitchn-logo {
+    width: 3.5vw;
+  }
+}

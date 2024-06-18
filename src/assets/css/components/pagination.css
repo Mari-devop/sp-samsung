@@ -1,0 +1,68 @@
+.sp-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 70px;
+}
+.sp-pagination__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+.sp-pagination__button:hover {
+  transform: scale(1.1);
+}
+.sp-pagination p {
+  font-family: 'Samsung Sharp Sans Regular';
+  font-size: 1.2vw;
+}
+.sp-pagination__button img {
+  width: 0.9vw;
+  height: 1.2vw;
+}
+
+@media (max-width: 1010px) {
+  .sp-pagination {
+    margin-top: 70px;
+  }
+  .sp-pagination p {
+    font-size: 1.4vw;
+  }
+  .sp-pagination__button img {
+    width: 1vw;
+    height: 1.2vw;
+  }
+}
+@media (max-width: 880px) {
+  .sp-pagination {
+    margin-top: 10px;
+  }
+  .sp-pagination__button img {
+    width: 0.8vw;
+    height: 1.6vw;
+  }
+  .sp-pagination p {
+    font-size: 1.7vw;
+  }
+}
+@media (max-width: 533px) {
+  .sp-pagination p {
+    font-size: 2.5vw;
+  }
+  .sp-pagination__button img {
+    width: 1vw;
+    height: 2.5vw;
+  }
+}
+@media (min-width: 1901px) {
+  .sp-pagination__button img {
+    width: 0.5vw;
+    height: 0.8vw;
+  }
+  .sp-pagination p {
+    font-size: 0.8vw;
+  }
+}
