@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sp-samsung/static/css/main.bb733e17.css",
-    "main.js": "/sp-samsung/static/js/main.c0771284.js",
+    "main.css": "/sp-samsung/static/css/main.b17356c2.css",
+    "main.js": "/sp-samsung/static/js/main.8e2703ba.js",
     "static/js/453.1f8b9855.chunk.js": "/sp-samsung/static/js/453.1f8b9855.chunk.js",
     "static/media/main.png": "/sp-samsung/static/media/main.de275f9fe8df5f615053.png",
     "static/media/frame6.png": "/sp-samsung/static/media/frame6.32d2b05df9dc618a9924.png",
@@ -15,12 +15,12 @@
     "static/media/samsungsharpsans-medium.woff": "/sp-samsung/static/media/samsungsharpsans-medium.5d992ee0ac0fb8516f0f.woff",
     "static/media/samsungsharpsans.woff": "/sp-samsung/static/media/samsungsharpsans.769f64ac016899cfcaa1.woff",
     "index.html": "/sp-samsung/index.html",
-    "main.bb733e17.css.map": "/sp-samsung/static/css/main.bb733e17.css.map",
-    "main.c0771284.js.map": "/sp-samsung/static/js/main.c0771284.js.map",
+    "main.b17356c2.css.map": "/sp-samsung/static/css/main.b17356c2.css.map",
+    "main.8e2703ba.js.map": "/sp-samsung/static/js/main.8e2703ba.js.map",
     "453.1f8b9855.chunk.js.map": "/sp-samsung/static/js/453.1f8b9855.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb733e17.css",
-    "static/js/main.c0771284.js"
+    "static/css/main.b17356c2.css",
+    "static/js/main.8e2703ba.js"
   ]
 }
